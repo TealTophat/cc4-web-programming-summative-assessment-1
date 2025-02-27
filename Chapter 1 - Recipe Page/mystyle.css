@@ -1,0 +1,27 @@
+body{
+	background-color: #F3E6D5; 
+	color: #191970; 
+	font-family: Arial, Verdana, sans-serif;
+		}
+}
+h1 {
+  line-height: 100px;
+  color: navy;
+  margin-left: 20px;
+}
+h2 {
+	line-height: 50px;
+	background-color: #FCD12A;
+	color: navy;
+	margin-left: 20px;
+}
+p{font-size: .90em; text-indent: 3em;
+		}
+ul{font-weight: bold;
+	line-height: 40px;
+	font-size: 15px;
+		}
+ol{font-weight: bold;
+	line-height: 40px;
+	font-size: 15px;
+	}
