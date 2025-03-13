@@ -1,0 +1,19 @@
+body{
+	background-color: #EAEAEA;
+}
+
+h1{
+	color: #00008B;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+}
+
+h2{
+	color: #0000FF;
+	border-bottom: 2px solid;
+}
+
+dt{
+	border-left: 5px solid;
+	padding-left: 10px;
+}

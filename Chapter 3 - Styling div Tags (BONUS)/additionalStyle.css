@@ -1,0 +1,36 @@
+.divA{
+border-color: #A020F0;
+box-shadow: 10px 10px 7px red;
+}
+
+.divB{
+border-color: #39FF14;
+box-shadow: 10px 10px 7px inset;
+}
+
+
+*,
+*:before,
+*:after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.divC{
+border-color: orange;
+margin: 25px;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+box-shadow: 
+0 0 0 10px blue,
+0 0 0 20px red,
+0 0 0 30px green;
+border-radius: 10px;
+}
+
+.divD{
+border-color: #B90E0A;
+text-shadow: 4px 4px 1.5px;
+}
