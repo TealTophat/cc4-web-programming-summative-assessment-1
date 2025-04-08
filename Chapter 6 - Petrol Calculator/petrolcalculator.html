@@ -1,0 +1,48 @@
+<!DOCTYPE html>     
+<html lang="en">         
+
+    <head>                             
+        <title> </title>
+		<link rel="stylesheet" href="petrol.css">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">   
+		
+    </head>
+
+<body>
+<header>
+<!--Header with website title-->
+<center><h1>Online Petrol Calculator</h1></center>
+	</header>
+<br>
+<main>
+<!--Main section--->
+<!--Prompt for petrol cost: User inputs a number and the value will be assigned to the variable "petrolcost"-->
+<label>Cost of Petrol (per liter, in American Dollars):</label>
+<input type="text" id="cost" required="number" placeholder="1.72">
+<br><br>
+<!--Prompt for number of liters purchased: User inputs a number and the value will be assigned to the variable "numliters"-->
+<label>Number of Liters Purchased:</label>
+<input type="text" id="purchase" required="number" placeholder="0">
+<!--Total Petrol Cost: Once the user presses the submit button, the total cost will be calculated-->
+<p id="total">Total Cost of Purchased Petrol:</p>
+<button id="submit1">Submit</button>
+<!--Script to calculate the total petrol cost-->
+<script>
+		let petrolcost = 1.72;
+		let numliters = 0;
+		let totalprice = 0;
+	document.getElementById("submit1").onclick = function(){
+	 petrolcost = document.getElementById("cost").value;
+	 numliters = document.getElementById("purchase").value;
+	 totalprice = petrolcost * numliters;
+	 document.getElementById("total").innerHTML = "Total Cost of Purchased Petrol: " + totalprice + "$";
+	}
+	</script>
+	</main>
+<br>
+<footer>
+<!--Footer with copyright text-->
+<center>&#169; 2025 Totally Real Petrol Company</center>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	background: #005F6A;
+	color: white;
+	padding:5px;
+}
+
+main{
+	background: #e6ecec;
+	padding: 10px;
+}
+
+footer{
+	background: #005F6A;
+	color: white;
+	padding:2px;
+}
+
+input:hover{
+	background-color: #7da4a7;
+	color: white;
+}
+
+button:hover{
+	background-color: #005F6A;
+	color: white;
+	
+}
